@@ -1,6 +1,5 @@
 Sistema de Inventario
-Descripción
-Este sistema de inventario desarrollado en PHP permite gestionar las operaciones relacionadas con bodegas, inventarios, clientes, proveedores y categorías. El sistema proporciona un control detallado sobre el manejo de productos, el flujo de mercancía, y la administración de relaciones comerciales.
+
 Funcionalidades
 1. Gestión de Bodegas
 - Crear, editar y eliminar bodegas.
