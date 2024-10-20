@@ -1,5 +1,9 @@
 Sistema de Inventario
 
+**Personas Involucradas
+-Gerson Ortiz
+-Leandro Guerra
+
 Funcionalidades
 1. Gestión de Bodegas
 - Crear, editar y eliminar bodegas.
@@ -26,7 +30,7 @@ Funcionalidades
 - Visualización del inventario por categorías.
 Requisitos del Sistema
 - Lenguaje de programación: PHP 7.4 o superior.
-- Base de datos: MySQL o MariaDB.
+- Base de datos: MySQL.
 - Servidor web: Apache o Nginx con soporte para PHP.
 - Extensiones requeridas: PDO_MySQL.
 - Navegador web: Últimas versiones de Chrome, Firefox, Edge.
