@@ -36,7 +36,7 @@ Requisitos del Sistema
 - Navegador web: Últimas versiones de Chrome, Firefox, Edge.
 Instalación
 1. Clona el repositorio en tu máquina local:
-   git clone https://github.com/tuusuario/sistema-inventario-php.git
+   git clone https://github.com/gdortiz502/Sistema_Inventario.git
 2. Configura la base de datos:
    - Crea una base de datos en MySQL o MariaDB.
    - Ejecuta el script `database.sql` que se encuentra en la carpeta `sql-scripts` para crear las tablas necesarias.
