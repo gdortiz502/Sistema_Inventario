@@ -68,6 +68,6 @@ $(document).on('click', ".btnImprimirVenta", function(){
 
 	var codigoVenta = $(this).attr("idVenta");
 
-	window.open("extensiones/tcpdf/pdf/factura.php?codigo="+ codigoVenta, "_blank");
+	window.open("extension/pdf/factura.php?codigo="+ codigoVenta, "_blank");
 
 });

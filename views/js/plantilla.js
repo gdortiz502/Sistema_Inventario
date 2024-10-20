@@ -33,7 +33,7 @@ $(function () {
       }
     });
 
-    var ruta = "http://inventarios.multiproyectosbbj.com/";
+    var ruta = "localhost/inventarios";
 
     if(window.location.pathname.replace(ruta, "") == "ventas" ||
        window.location.pathname.replace(ruta, "") == "crearventa" ||

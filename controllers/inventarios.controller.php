@@ -14,7 +14,7 @@
 
         public static function ctrInsertarProductos(){
 
-            if(isset($_POST["idInventarioProducto"])){
+            if(isset($_POST["idInventarioProducto"]) && $_POST["idInventarioProducto"] != ""){
 
                 $tabla = "inventario";
 

@@ -286,7 +286,7 @@
             <div class="modal-content">
                 <form method="POST" enctype="multipart/form-data">
                     <div class="modal-header" style="color: white; background-color:#ffc107">
-                        <h4 class="modal-title">Editar Proveedor</h4>
+                        <h4 class="modal-title">Editar Producto</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
@@ -475,8 +475,8 @@
 
                     <?php
                     
-                        $insertarInventario = new InventariosController();
-                        $insertarInventario -> ctrInsertarProductos();
+                        $insertarInventario1 = new InventariosController();
+                        $insertarInventario1 -> ctrInsertarProductos();
 
                     ?>
                 </form>

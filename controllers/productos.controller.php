@@ -14,7 +14,7 @@
 
         public static function ctrInsertarProductos(){
 
-            if(isset($_POST["nuevoCodigoProducto"])){
+            if(isset($_POST["nuevoCodigoProducto"]) && isset($_POST["nuevaDescripcionProducto"])){
 
                 if(preg_match('/^[a-zA-Z0-9-]+$/', $_POST["nuevoCodigoProducto"]) ||
                    preg_match('/^[a-zA-Z0-9áéíóúÁÉÍÓÚ ]+$/', $_POST["nuevaDescripcionProducto"])){
@@ -23,7 +23,7 @@
 
                     $ruta = "views/img/productos/default/anonymous.png";
 
-                    if(isset($_FILES["nuevaImagenProducto"]["tmp_name"])){
+                    if(isset($_FILES["nuevaImagenUsuario"]["tmp_name"]) && !empty($_FILES["nuevaImagenUsuario"]["tmp_name"])){
 
                         list($ancho, $alto) = getimagesize($_FILES["nuevaImagenProducto"]["tmp_name"]);
 

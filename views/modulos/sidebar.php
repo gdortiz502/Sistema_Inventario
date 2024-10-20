@@ -195,7 +195,6 @@
               <i class="nav-icon fas fa-cog"></i>
               <p>
                 Configuración
-                <span class="right badge badge-danger">Nuevo</span>
               </p>
             </a>
           </li>
@@ -204,7 +203,6 @@
               <i class="nav-icon fas fa-history"></i>
               <p>
                 Historial
-                <span class="right badge badge-danger">Nuevo</span>
               </p>
             </a>
           </li>';
@@ -216,11 +214,11 @@
               <i class="nav-icon fas fa-user-cog"></i>
               <p>
                 Perfil
-                <span class="right badge badge-danger">Nuevo</span>
+                <!--<span class="right badge badge-danger">Nuevo</span>-->
               </p>
             </a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a href="novedades" class="nav-link">
               <i class="nav-icon fas fa-certificate"></i>
               <p>
@@ -228,7 +226,7 @@
                 <span class="right badge badge-danger">Nuevo</span>
               </p>
             </a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a href="salir" class="nav-link">
               <i class="nav-icon fas fa-power-off"></i>
